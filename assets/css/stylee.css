@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&display=swap');
+
+body {
+    color: hsl(224, 30%, 27%);
+}
+
+.container {
+    background-color: hsl(221, 100%, 96%);
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+    margin-left: 380px;
+    margin-top: 100px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 2px 2px 0px 0px hsla(0, 1%, 68%, 0.2);
+    font-family: 'Hanken Grotesk', sans-serif;
+
+    .reaction {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: hsla(0, 100%, 67%, 0.1);
+        color: hsl(0, 100%, 67%);
+        height: 20px;
+        width: 200px;
+        margin-left: 350px;
+
+        .reaction svg {
+            margin-left: -70px;
+        }
+
+        #react {
+            text-align: center;
+            margin-right: 80px;
+            margin-top: -25px;
+            font-family: 'Hanken Grotesk', sans-serif;
+        }
+
+        #reatnum {
+            font-family: 'Hanken Grotesk', sans-serif;
+            margin-left: 135px;
+            margin-top: -41px;
+            color: black;
+        }
+
+
+    }
+
+    .memory {
+        padding: 10px;
+        height: 20px;
+        width: 200px;
+        background-color: hsla(39, 100%, 56%, 0.1);
+        color: hsl(39, 100%, 56%);
+        border-radius: 10px;
+        margin-left: 350px;
+        margin-top: 15px;
+
+        #mem {
+            margin-left: 30px;
+            margin-top: -24px;
+            font-family: 'Hanken Grotesk', sans-serif;
+        }
+
+        #memnum {
+            margin-left: 136px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            color: black;
+            margin-top: -42px;
+        }
+    }
+
+    .verbal {
+        padding: 10px;
+        height: 20px;
+        width: 200px;
+        background-color: hsla(166, 100%, 37%, 0.1);
+        margin-left: 350px;
+        border-radius: 10px;
+        margin-top: 15px;
+        color: hsla(166, 100%, 37%);
+        font-family: 'Hanken Grotesk', sans-serif;
+
+        #ver {
+            margin-left: 30px;
+            margin-top: -25px;
+        }
+
+        #vernum {
+            margin-left: 136px;
+            margin-top: -42px;
+            color: black;
+        }
+    }
+
+    .visual {
+        padding: 10px;
+        height: 20px;
+        width: 200px;
+        margin-left: 350px;
+        background-color: hsla(234, 85%, 45%, 0.1);
+        border-radius: 10px;
+        margin-top: 15px;
+        color: hsl(234, 85%, 45%);
+
+        #vis {
+            margin-left: 30px;
+            margin-top: -25px;
+        }
+
+        #visnum {
+            margin-left: 136px;
+            margin-top: -42px;
+            color: black;
+        }
+    }
+
+    .button {
+        padding: 10px;
+        margin-left: 345px;
+        height: 25px;
+        width: 210px;
+        color: white;
+        background-color: darkslategrey;
+        border-radius: 25px;
+        margin-top: 40px;
+
+        #cont {
+            margin-top: -40px;
+            margin-left: -10px;
+            height: 53px;
+            width: 230px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            background-color: darkslategrey;
+            font-size: 18px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 25px;
+
+        }
+
+        .button,
+        #cont:hover {
+            transition: background-color 0.3s ease;
+            background-color: black;
+            border-radius: 25px;
+        }
+    }
+
+    .block {
+        padding: 10px;
+        height: 402px;
+        width: 310px;
+        margin-left: -10px;
+        margin-top: -370px;
+        border-radius: 25px 25px 25px 25px;
+        background: hsla(241, 81%, 54%);
+
+        #result {
+            margin-left: 90px;
+            color: hsl(241, 100%, 89%);
+        }
+
+        .circle {
+            padding: 10px;
+            background: linear-gradient(to bottom, hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+            height: 150px;
+            width: 155px;
+            border-radius: 100px;
+            margin-top: -150px;
+            margin-left: 70px;
+            border-color: black;
+            #marks{
+                color: white;
+                font-size: 60px;
+                position: relative;right: -43px; top: -5px;
+            }
+            #outof{
+                color: hsl(241, 100%, 89%);
+                font-size: 18px;
+                position: relative;right: -50px; top: -48px;
+            }
+        }
+
+        #great {
+            color: white;
+            position: relative; bottom: -190px; right: -115px;
+        }
+        #para{
+            text-align: center;
+            font-size: 18px;
+            color: hsl(241, 100%, 89%);
+            position: relative;bottom: -190px;
+            margin-right: 20px;
+            margin-left: 20px;
+            
+        }
+
+    }
+}
+
+.container h2 {
+    margin-left: 350px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+
+}
